@@ -1,0 +1,59 @@
+$COLORPORLAS: #857b7b;
+/*GENERALES*/
+.fondo-transparente{
+    background: rgb(204,204,219);
+    background: radial-gradient(circle, rgba(204,204,219,0.10688025210084029) 0%, rgba(184,171,171,1) 50%, rgba(204,204,219,0.10688025210084029) 100%);
+}
+.link{
+    color: #000000;
+}
+.link:hover{
+        color: #590F23;
+}
+/*ENCABEZADO*/
+.encabezado{
+    background-color: #fefffc;
+}
+/*MENU*/
+.menu{
+    background-image: url(../imagenes/imgEncabezado1.jpg);
+}
+.ul__desplegable{
+    background: rgb(133,123,123);
+    background: linear-gradient(180deg, rgba(133,123,123,0.3) 0%, rgba(249,249,249,0.07886904761904767) 98%);
+    border-bottom: 1px #857b7b solid  ;
+}
+.desplegable__items{
+    border-bottom: 1px #857b7b solid ;
+}
+/*BANNER HOME*/
+.texto__banner{
+    border: #857b7b solid 1.75px;
+    border-radius: 3%;
+}
+.texto__banner:hover{
+    border: transparent;
+    background: rgb(167,149,142);
+    background: linear-gradient(180deg, rgba(167,149,142,0.2721463585434174) 0%, rgba(167,149,142,0.2413340336134454) 82%);
+}
+    /*BENEFICIOS*/ 
+.envios{
+    border-right: 1px solid #000000;
+}
+.pagos{
+    border-left: 1px solid #000000;
+}
+/*PRODUCTOS*/
+.productos__box{
+    margin: 3px;
+    border: 2px solid #857b7b;
+    border-radius: 3%;
+}
+/*CONTACTO*/
+
+/*FOOTER*/
+.piedepag{
+    background-image: url(../imagenes/imgEncabezado1.jpg);
+}
+
+

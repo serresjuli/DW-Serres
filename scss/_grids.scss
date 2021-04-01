@@ -1,0 +1,230 @@
+/*GRID ENCABEZADO*/
+.encabezado{
+    display: grid;
+    grid-template-areas: "logo"
+    "titulo";
+    grid-template-rows: 81px 20px;
+    grid-template-columns: 100%;
+    .encabezado__logo{
+        grid-area: logo; 
+    }
+    .encabezado__titulo{
+        grid-area: titulo; 
+    }
+}
+/*GRID FOOTER*/
+.piedepag{
+    display: grid;
+    grid-template-areas: "navegacion contacto redes"
+    "copyright copyright copyright";
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 120px 30px;
+    .piedepag__contacto{
+        grid-area: contacto;
+    }
+    .piedepag__navegacion{
+        grid-area: navegacion;
+    }
+    .piedepag__redes{
+        grid-area: redes;   
+    }
+    .piedepag__copyright{
+        grid-area: copyright;
+    }
+}
+/*GRID MENU*/
+.menu{
+    display: grid;
+    grid-template-areas: "desplegable listado";
+    grid-template-columns: 10% 90%;
+    .menu__desplegable{
+        grid-area: desplegable;
+        width: 100%;
+    }
+    .menu__listado{
+        grid-area: listado;
+        width: 100%;
+    }
+}
+/*GRID GENERAL HOME*/
+.bodyindex{
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 103px 35px 1050px 150px;
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+/*GRID GENERAL PRODUCTOS*/
+.bodyproductos{
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 103px 35px 700px 150px;
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+/*GRID GENERAL TEXTURAS*/
+.bodytexturas{
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-rows: 103px 35px 620px 150px;
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+        z-index: 1;
+    }
+    main{
+        grid-area: main;
+        z-index: 0;
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+/*GRID GENERAL CONTACTO*/
+.bodycontacto{
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    grid-template-rows: 103px 35px 400px 150px;
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+/*GRID MAIN HOME*/
+.cuerpo__home{
+    display: grid;
+    grid-template-areas: "beneficios"
+    "bannertejidos"
+    "bannercomplementos"
+    "bannertexturas";
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 320px 320px 320px;
+    .beneficios{
+        grid-area: beneficios;
+    }
+    .banner__tejidos{
+        grid-area: bannertejidos;
+    }
+    .banner__complementos{
+        grid-area: bannercomplementos;
+    }
+    .banner__texturas{
+        grid-area: bannertexturas;
+    }
+}
+/*GRID MAIN PRODUCTOS*/
+.cuerpo__productos{
+    display: grid;
+    grid-template-areas: "beneficios"
+    "titular"
+    "productos";
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 20px 600px;
+    .beneficios{
+        grid-area: beneficios;
+    }
+    .titular__productos{
+        grid-area: titular;
+    }
+    .productos{
+        grid-area: productos;
+    }
+}
+/*GRID MAIN TEXTURAS*/
+.cuerpo__texturas{
+    display: grid;
+    grid-template-areas: "titular"
+    "imagenes";
+    grid-template-rows: 20px 250px;
+    grid-template-columns: 100%;
+    .titular__texturas{
+        grid-area: titular;
+    }
+    .imagenes__texturas{
+        grid-area: imagenes;
+    }
+}
+/*GRID MAIN CONTACTO*/
+.cuerpo__contacto{
+    display: grid;
+    grid-template-areas: "titular titular"
+    "form links";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25px 350px ;
+    .form__contacto{
+        grid-area: form;
+    }
+    .links__contacto{
+        grid-area: links;
+    }
+}
+.form__contacto{
+    display: grid;
+    grid-template-areas: "nombre" 
+    "telefono"
+    "correo" 
+    "producto" 
+    "botones";
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    .form__nombre{
+        grid-area: nombre;
+    }
+    .form__telefono{
+        grid-area: telefono;
+    }
+    .form__correo{
+        grid-area: correo;
+    }
+    .form__producto{
+        grid-area: producto;
+    }
+    .form__botones{
+        grid-area: botones;
+    }
+}

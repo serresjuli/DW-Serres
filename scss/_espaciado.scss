@@ -1,0 +1,172 @@
+/*GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    border-radius: 3%;
+    max-width: 100%;
+    height: auto;
+}
+/*ENCABEZADO*/
+.encabezado__logo{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+/*BARRA MENU*/
+.menu{
+    position: sticky;
+    top: 0px;
+}
+.paginas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    .paginas__items{
+        margin: 6px;
+    }
+}
+/*MENU DESPLEGABLE*/
+.menu__desplegable{
+    padding: 6px
+}
+.li__desplegable{
+    display: inline-block;
+    position: relative;
+    .ul__desplegable{
+        position: absolute;
+        display: none;
+        padding-top: 3px;
+        .desplegable__items{
+            display: block;
+        }
+    }
+}
+.li__desplegable:hover .ul__desplegable{
+    display: block;
+}
+/*MAIN*/
+main{
+    padding-top: 5px;
+}
+/*BANNER BENEFICIOS*/
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px;
+}
+.envios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .icono__envios{
+        padding-right: 4px;
+    }
+}
+.pagos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 4px;
+}
+.titular__productos{
+    padding-left: 5px;
+}
+/*BANNERS HOME*/
+.banner__tejidos{
+    display: flex;
+    flex-direction: row;
+    .texto__banner{
+        display: flex;
+        width: 25%;
+        height: 310px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.banner__complementos{
+    display: flex;
+    flex-direction: row;
+    .texto__banner{
+        display: flex;
+        width: 25%;
+        height: 310px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.banner__texturas{
+    display: flex;
+    flex-direction: row;
+    .texto__banner{
+        display: flex;
+        width: 25%;
+        height: 310px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.imagen__banner:hover{
+    width: 90%;
+}
+/*PRODUCTOS*/
+.productos__box{
+    width: 170px;
+    height: 220px;
+    margin: 25px;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*TEXTURAS*/
+.imagenes__texturas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.cardinvierno{
+    padding: 5px;
+    width: 33%;
+}
+.cardinvierno:hover{
+    width: 40%;
+}
+.cardverano{
+    padding: 5px;
+    width: 33%;
+}
+.cardverano:hover{
+    width: 40%;
+}
+.cardhilo{
+    padding: 5px;
+    width: 33%;
+}
+.cardhilo:hover{
+    width: 40%;
+}
+/*CONTACTO*/
+.titular__contacto{
+    height: 50px;
+    width: 100%;
+}
+.form__contacto{
+    padding: 15px;
+}
+/*FOOTER*/
+.padding-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-redes{
+    padding: 20px;
+}

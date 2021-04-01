@@ -1,0 +1,60 @@
+$fuentetitulos: 'Roboto Mono', monospace;
+$fuentetexto: 'Poppins', sans-serif;
+$fuentetitulobig: 'Montserrat', sans-serif;
+/*GENERAL*/
+.textobig{
+    font-family: $fuentetexto;
+    font-size: 16px;
+    line-height: 19px ;
+}
+.lista{
+    list-style: none;
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+}
+/*ENCABEZADO*/
+.encabezado__titulo{
+    text-align: center;
+    font-size: 12px;
+}
+/*MENU*/ 
+.beneficios{
+    text-align: left;
+}
+/*MAIN*/
+.p__box{
+    text-align: center;
+    font-family: $fuentetitulobig;
+}
+/*BANNER HOME*/
+.texto__banner{
+    font-family: $fuentetexto;
+}
+/*TEXTURAS*/
+.titular__texturas{
+    text-align: center;
+}
+.card-text{
+    font-family: $fuentetexto;
+}
+/*CONTACTO*/
+.titular__contacto{
+    text-align: center;
+}
+.form__contacto{
+    text-align: center;
+    font-family: $fuentetexto;    
+}
+.links__contacto{
+    text-align: center;
+}
+/*FOOTER*/
+.h3footer{
+    font-family: $fuentetitulos ;
+}
+.piedepag__copyright{
+    text-align: right;
+}
+
